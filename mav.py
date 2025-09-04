@@ -8,7 +8,7 @@ class MavlinkVehicle:
     """
     A wrapper class for MAVLink communication to simplify drone interaction.
     """
-    def __init__(self, connection_string='COM21', baud_rate=57600):
+    def __init__(self, connection_string='/dev/ttyUSB0', baud_rate=57600):
         """
         Initializes the vehicle and connects to it.
         Raises Exception on connection failure.

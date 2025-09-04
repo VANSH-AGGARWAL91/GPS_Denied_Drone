@@ -55,9 +55,9 @@ def main():
     print("="*50)
     
     # Get connection parameters from user or use defaults
-    connection_string = input("\nEnter COM port (press Enter for COM21): ").strip()
+    connection_string = input("\nEnter COM port (press Enter for /dev/ttyUSB0'): ").strip()
     if not connection_string:
-        connection_string = 'COM21'
+        connection_string = '/dev/ttyUSB0'
     
     baud_input = input("Enter baud rate (press Enter for 57600): ").strip()
     if not baud_input:
