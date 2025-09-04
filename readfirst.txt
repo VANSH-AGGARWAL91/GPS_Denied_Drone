@@ -1,0 +1,16 @@
+theere is few files mav.py , in_console.py , and requirements.txt other then these files all folers are just creat during testing 
+
+
+in the mav.py there is the wrapper class called MavlinkVehicle which has all the functions for 
+1. _connect (# for connecting to the drone and it execute automactic with constructor function)
+2. update_state (# for checking the continous status)
+3. send_command (# for sending commands like arm, disarm, takeoff, land, rtl, status, test, exit)
+4. print_detailed_state (# for printing the data received from drone)
+5. test_connection (# for checking the )
+6. close
+
+The in_console.py script provides the user interface, while mav.py handles all the low-level communication with the vehicle.
+
+and the requirements.txt is the file where all the required Lib with there version do that anyone can setup the same env for work the setup.
+
+
