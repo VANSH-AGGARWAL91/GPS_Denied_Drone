@@ -1,0 +1,2 @@
+this folder contain all the the file related to the project 
+filewhich are used during the development even scrap file as well
